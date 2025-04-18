@@ -10,6 +10,6 @@ use App\Http\Controllers\MenuItemController;
 Route::get('/Login', [LoginController::class, 'index']);
 Route::get('/DashboardAdmin', [DashboardController::class, 'index']);
 Route::get('/MenuItem', [MenuItemController::class, 'index']);
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/gambar', function () {
+    return view('image');
 });
